@@ -1,0 +1,31 @@
+body{
+    background-color:azure;
+}
+#top,#about,#skills,#projects,#contact{
+    margin-left:2%;
+}
+.nav-link{
+    font-size:25px;
+    margin-right:5%;
+}
+i{
+    font-size: 75px;
+}
+h4{
+    display:inline-block;
+}
+.skill{
+    text-align: center;
+    width:15rem;
+    height:12rem;
+    border: 0.2px solid;
+    border-radius: 5px;
+    box-shadow: 5px 10px 8px #888888;
+    padding:5px;
+    margin-right:3%;
+}
+.skill:hover{
+    width:16rem;
+    height:13rem;
+    transition: width 1s, height 1s;
+}
